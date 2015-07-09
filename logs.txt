@@ -1,3 +1,27 @@
+commit 9d5e9786bf126cac9482fbed3e5d95de6828e985
+Author: WEBEXZ <WEBEXZ>
+Date:   Wed Jul 8 15:47:06 2015 -0500
+
+    Agregando pie de pagina
+
+commit ece20e1db78493d10ccdd486a867d99537c304d5
+Author: WEBEXZ <WEBEXZ>
+Date:   Wed Jul 8 15:41:12 2015 -0500
+
+    Agregando seccion 3, con texto y area de imagenes
+
+commit aabf6c0b5c337302d81d6b583e585f6024c7d190
+Author: WEBEXZ <WEBEXZ>
+Date:   Wed Jul 8 15:29:05 2015 -0500
+
+    Agregando seccion 2 contenido y video
+
+commit f113519fd8f742160926f8981737f76ff8c97ffb
+Author: WEBEXZ <WEBEXZ>
+Date:   Wed Jul 8 15:15:22 2015 -0500
+
+    Agregando seccion 1 con 3 articulos
+
 commit 1d18638536ce345989641a84d0f57f0ca6d7d503
 Author: WEBEXZ <WEBEXZ>
 Date:   Wed Jul 8 15:04:01 2015 -0500
