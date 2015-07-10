@@ -11,5 +11,122 @@
 
 body
 {
+	background: rgba(179,179,174, 0.61);
 	font-family: "1942", Arial, Verdana;
+	font-size: 16px;
+  margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+
+header
+{
+	border: 1px solid red;
+	position: relative;
+	margin: 0px;
+}
+
+/*Posicionamiento: Flotacion*/
+/*header img
+{
+	float: right;
+	height: 200px;
+	width: 100%;
+}*/
+
+/*Posicionamiento: Posiciones realtivas y absolutas*/
+header figure
+{
+	margin: 0px;
+}
+
+header figure img
+{
+	height: 250px;
+	width: 100%;
+}
+
+header hgroup
+{
+	color: white;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+}
+
+header nav
+{
+	position: absolute;
+		left: 120px;
+		top: 160px;
+}
+
+header nav ul
+{
+	list-style: none;
+}
+
+header nav ul li
+{
+	background: white;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 1.5em;
+	padding: 0.3em;
+}
+
+header nav ul li a
+{
+	color: red;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header nav ul li:hover
+{
+	background: blue;
+}
+
+header nav ul li a:hover
+{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 400px){
+	body
+	{
+		background: black;
+	}
+
+	header figure img
+	{
+		width: 200px;
+	}
+}
+
+/*@media screen and (min-width: 401px) and (max-width: 728) {
+	body
+	{
+		background: red;
+	}	
+}*/
+
+@media print {
+	body
+	{
+		background: #ABD012;
+		font-size: 100px;
+	}
+}
+
+@media screen and (min-width: 729px){
+	body
+	{
+		background: red;
+	}	
 }
