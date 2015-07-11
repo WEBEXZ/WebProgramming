@@ -21,7 +21,6 @@ body
 
 header
 {
-	border: 1px solid red;
 	position: relative;
 	margin: 0px;
 }
@@ -109,6 +108,69 @@ header nav ul li a:hover
 	}
 }
 
+/*Secciones*/
+
+section
+{
+	background: rgba(255,255,255,0.7);
+	border: 1px solid red;
+}
+
+#seccion1
+{
+	
+}
+
+#seccion1 article
+{
+	box-shadow: 0px 0px 10px 4px rgba(100,120,120,0.2);
+	display: inline-block;
+	/*margin: 1.5em 0.5em;*/
+	padding: 0 0.5em;
+	position:relative;
+		top: 5%;
+		bottom: 5%;
+	text-align: center;
+	width: 20%
+}
+
+#seccion1 article:hover
+{
+	box-shadow: 0px 0px 10px 4px rgba(100,120,120,0.2);
+	display: inline-block;
+	text-align: center;
+	width: 25%
+}
+
+#seccion1 div
+{
+	position: relative;
+	left: 10%;
+	right: 10%;
+}
+
+#seccion1 div article img
+{
+	margin-top: 5px;
+	width: 40%;
+}
+
+#seccion1 div article h4
+{
+	color:black;
+	font-family: Arial; 
+	font-size: 0.8em;
+	text-shadow: 4px -10px 0 rgba(0,0,0,0.2);
+}
+
+#seccion1 div article p
+{
+	color: gray;
+	font-family: Arial; 
+	font-size: 0.6em;
+}
+
+
 /*@media screen and (min-width: 401px) and (max-width: 728) {
 	body
 	{
@@ -127,6 +189,6 @@ header nav ul li a:hover
 @media screen and (min-width: 729px){
 	body
 	{
-		background: red;
+		/*background: red;*/
 	}	
 }
