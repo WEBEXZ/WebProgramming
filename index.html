@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 	<title>Practica 2</title>
 	<meta charset="UTF-8">
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!--media queries-->
+<!--media queries-->
 
 	<link rel="stylesheet" type="text/css" href="Estilos/normalize.css">
 	<link rel="stylesheet" type="text/css" href="Estilos/funte_iconos.css">
@@ -15,7 +12,6 @@
 </head>
 
 <body>
-
 	<header>
 		<hgroup>
 			<h1>N o t i f y</h1>
@@ -29,15 +25,9 @@
 <!-- BARRA DE NAVEGACIÓN -->
 		<nav>
 			<ul>
-				<li>
-					<a class="nave icon-home" href="#"></a>
-				</li>
-				<li>
-					<a class="nave icon-image" href="#"></a>
-				</li>
-				<li>
-					<a class="nave icon-new" href="#"></a>
-				</li>
+				<li><a class="nave icon-home" href="#"></a></li>
+				<li><a class="nave icon-image" href="#"></a></li>
+				<li><a class="nave icon-new" href="#"></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -68,7 +58,7 @@
 <!-- SECCION 2 area del video-->
 
 	<section id="seccion2">
-		<article>
+		<article id="izquierda">
 			<h4>Titulo de contenido</h4>	
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -77,18 +67,18 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</article>
-		<div>
+		<div id="enviar">
 			<input type="text" placeholder="Ingresa tu e-mail">	
 			<input type="button" value="Enviar">
 		</div>
 
-		<article>
+		<article id="video">
 			<video src="#" controls poster="#" width="320" height="240"> </video>
 		</article>
 	</section>
 
 <!-- SECCION 3 -->
-	<section>
+	<section id="final">
 		<article>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nulla accusamus eligendi aspernatur repellat, numquam iure minus! Labore, non reprehenderit cum quaerat? Magni adipisci modi, eos ab provident, necessitatibus dicta.</p>
 
@@ -122,11 +112,11 @@
 
 <!-- Footer -->
 	<footer>
-		<a href="">Contacto</a>
-		<a href="">Descargar</a>
-		<a href="">Soporte</a>
-		<a href="">Email</a>
-		<a href="">Inicio</a>
+		<a class="nave icon-mobile" href="contacto.html">Contacto</a>
+		<a class="nave icon-image">Descargar</a>
+		<a class="nave icon-save" href="about.html">Soporte</a>
+		<a class="nave icon-new">Email</a>
+		<a class="nave icon-home" href="index.html">Inicio</a>
 	</footer>
 
 </body>
