@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Practica 2</title>
+	<title>Bienvenido....</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--media queries-->
 
 	<link rel="stylesheet" type="text/css" href="Estilos/normalize.css">
 	<link rel="stylesheet" type="text/css" href="Estilos/funte_iconos.css">
@@ -25,9 +24,9 @@
 <!-- BARRA DE NAVEGACIÓN -->
 		<nav>
 			<ul>
-				<li><a class="nave icon-home" href="#"></a></li>
-				<li><a class="nave icon-image" href="#"></a></li>
-				<li><a class="nave icon-new" href="#"></a></li>
+				<li><a class="icon-home" href="#"></a></li>
+				<li><a class="icon-image" href="#"></a></li>
+				<li><a class="icon-new" href="#"></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -55,42 +54,43 @@
 		</div>
 	</section>
 
-<!-- SECCION 2 area del video-->
-
+<!-- SECCION 2 area de texto y video-->
 	<section id="seccion2">
-		<article id="izquierda">
-			<h4>Titulo de contenido</h4>	
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</article>
-		<div id="enviar">
-			<input type="text" placeholder="Ingresa tu e-mail">	
-			<input type="button" value="Enviar">
-		</div>
+		<div>
+			<article class="col-1">
+				<h4>Titulo de contenido</h4>	
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div>
+					<input id="tf" type="text" placeholder="Ingresa tu e-mail">	
+					<input class="btn" type="button" value="Enviar">
+				</div>
+			</article>
 
-		<article id="video">
-			<video src="#" controls poster="#" width="320" height="240"> </video>
-		</article>
+			<article class="col-2">
+				<video src="#" controls poster="Imagenes/bala.jpg" width="320" height="240"> </video>
+			</article>
+		</div>
 	</section>
 
 <!-- SECCION 3 -->
-	<section id="final">
+	<section id="seccion3">
 		<article>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nulla accusamus eligendi aspernatur repellat, numquam iure minus! Labore, non reprehenderit cum quaerat? Magni adipisci modi, eos ab provident, necessitatibus dicta.</p>
 
 			<figure>
 				<figcaption>
-					Imagenes
+					<h2>Imágenes</h2>
 				</figcaption>
-				<img src="#" alt="1">
-				<img src="#" alt="2">
-				<img src="#" alt="3">
-				<img src="#" alt="4">
-				<img src="#" alt="5">
+				<img src="Imagenes/bala.jpg" alt="1" width="30" height="30">
+				<img src="Imagenes/mario.jpg" alt="2" width="30" height="30">
+				<img src="Imagenes/bolita.jpg" alt="3" width="30" height="30">
+				<img src="Imagenes/bala.jpg" alt="4" width="30" height="30">
+				<img src="Imagenes/mario.jpg" alt="5" width="30" height="30">
 			</figure>
 
 			<div>
@@ -102,9 +102,9 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<div>
-					<a href="#">Enlace 1</a>
-					<a href="#">Enlace 2</a>
-					<a href="#">Enlace 3</a>
+					<a class="carrete icon-mobile"></a>
+					<a class="carrete icon-video"></a>
+					<a class="carrete icon-save"></a>
 				</div>
 			</div>
 		</article>
@@ -112,12 +112,11 @@
 
 <!-- Footer -->
 	<footer>
-		<a class="nave icon-mobile" href="contacto.html">Contacto</a>
-		<a class="nave icon-image">Descargar</a>
-		<a class="nave icon-save" href="about.html">Soporte</a>
-		<a class="nave icon-new">Email</a>
-		<a class="nave icon-home" href="index.html">Inicio</a>
+		<a class="icon-mobile" href="contacto.html">Contacto</a>
+		<a class="icon-image">Descargar</a>
+		<a class="icon-work" href="about.html">Soporte</a>
+		<a class="icon-new">Email</a>
+		<a class="icon-home" href="index.html">Inicio</a>
 	</footer>
-
 </body>
 </html>
